@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter';
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #5A537B;
+}
+
+.h2-dark{
+    color: #CCC1FF;
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    width: 100%;
+    background: #6943FF;
+    color: white;
+}
+
+.header-section.dark{
+    background: #153870;
+}
+
+.dark-toggler{
+    padding-top: 30px;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  width: 45px;
+  height: 17px;
+  background-color:#111;
+  display: flex;
+  border-radius:50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  position: relative;
+  transform: scale(1.5);
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+
+/*  target the elemenent after the label*/
+.checkbox:checked + .label .ball{
+  transform: translateX(29px);
+}
+
+.fa-moon {
+  color: pink;
+}
+
+.fa-sun {
+  color: yellow;
+}
+
+.header-title {
+    margin: 40px 0px;
+}
+
+.num-input {
+    width: 117px;
+    background: inherit;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    font-weight: 800;
+    font-size: 58px;
+    color: white;
+    text-align: center;
+}
+
+.convert-btn {
+    margin: 30px;
+    padding: 9px 27px;
+    background: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #3D3D3D;
+}
+
+.main-section {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: #F4F4F4;
+}
+
+.main-section-dark {
+    background: #1F2937;
+    color: white;
+}
+
+.unit-article {
+    padding: 30px 77px;
+    background: #FFFFFF;
+    border-radius: 5px 0px 0px 0px;
+    text-align: center;
+}
+
+.article-dark {
+    background: #273549;
+}
+
+article>p {
+    margin-top: 9px;
+}
