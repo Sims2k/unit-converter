@@ -35,6 +35,7 @@ p {
     width: 100%;
     background: #6943FF;
     color: white;
+    transition: background 0.2s linear;
 }
 
 .header-section.dark{
@@ -119,6 +120,7 @@ p {
     align-items: center;
     width: 100%;
     background: #F4F4F4;
+    transition: background 0.2s linear;
 }
 
 .main-section-dark {
@@ -131,6 +133,7 @@ p {
     background: #FFFFFF;
     border-radius: 5px 0px 0px 0px;
     text-align: center;
+    transition: background 0.2s linear;
 }
 
 .article-dark {
